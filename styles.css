@@ -1,0 +1,30 @@
+body {
+    font-family: "Lato", sans-serif
+}
+
+.mySlides {
+    display: none
+}
+
+#navDemo {
+    margin-top: 46px;
+}
+
+.pg-content {
+    max-width: 2000px;
+    margin-top: 46px;
+}
+
+.slideshow-img {
+    width: 100%;
+}
+
+.lt-img {
+    width: 100%; 
+    aspect-ratio: 1/1; 
+    object-fit: cover;
+}
+
+#du-lich {
+    max-width: 800px;
+}

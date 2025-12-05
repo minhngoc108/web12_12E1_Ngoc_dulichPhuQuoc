@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tour Du Lịch Phú Quốc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="styles.css">
+<script src="./js/main.js" defer></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="w3-top">
+  <nav class="w3-bar w3-indigo w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right  w3-hover-light-blue" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-light-blue">HOME</a>
+    <a href="#du-lich" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-light-blue">PHÚ QUỐC</a>
+    <a href="#lich-trinh" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-light-blue">LỊCH TRÌNH</a>
+    <a href="#lien-he" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-light-blue">LIÊN HỆ</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button w3-hover-light-blue" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </nav>
+</header>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<nav id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-top">
+  <a href="#du-lich" class="w3-bar-item w3-button w3-padding-large w3-hover-light-blue" onclick="myFunction()">PHÚ QUỐC</a>
+  <a href="#lich-trinh" class="w3-bar-item w3-button w3-padding-large w3-hover-light-blue" onclick="myFunction()">LỊCH TRÌNH</a>
+  <a href="#lien-he" class="w3-bar-item w3-button w3-padding-large w3-hover-light-blue" onclick="myFunction()">LIÊN HỆ</a>
+</nav>
+
+<!-- Page content -->
+<main class="w3-content pg-content">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./assets/phu-quoc-1.jpg" class="slideshow-img">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Biển</h3>
+      <p><b>Khung cảnh nên thơ, dải cát trắng, làn nước biển trong xanh</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./assets/phu-quoc-2.jpg" class="slideshow-img">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Vườn quốc gia</h3>
+      <p><b>Hệ sinh thái đặc sắc, thảm thực vật xanh mướt</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="./assets/phu-quoc-3.jpg" class="slideshow-img">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Các khu vui chơi giải trí</h3>
+      <p><b>Hiện đại, phù hợp với tất cả mọi người, đặc biệt là trẻ em</b></p>    
+    </div>
+  </div>
+
+
+  <section class="w3-container w3-content w3-center w3-padding-64" id="du-lich">
+    <h2 class="w3-wide">PHÚ QUỐC</h2>
+    <p class="w3-opacity"><i>Hòn đảo ngọc của Việt Nam</i></p>
+    <p class="w3-justify">Phú Quốc — còn được gọi là Đảo Ngọc — là hòn đảo lớn nhất Việt Nam với những bãi biển trong xanh, cát trắng mịn, rừng nguyên sinh và khí hậu ôn hòa quanh năm. 
+      Website Phú Quốc Explorer được tạo ra nhằm cung cấp thông tin du lịch hữu ích, gợi ý lịch trình và hình ảnh chân thực giúp bạn sẵn sàng cho một chuyến đi trọn vẹn. 
+      Từ những bãi biển nổi tiếng như Bãi Sao, Bãi Dài, đến trải nghiệm câu mực đêm, lặn ngắm san hô hay tham quan VinWonders – Safari, Phú Quốc luôn mang lại cảm giác vừa bình yên vừa đầy hứng khởi.</p>
+    <div class="w3-row w3-padding-32">
+      <h3 class="w3-center">NHÂN VIÊN</h3>
+      <div class="w3-third w3-card w3-padding-16">
+        <img src="./assets/nhan-vien.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        
+        <p>
+          <strong>Linh Nguyễn</strong> <br>
+          Chuyên tuyến: Bắc đảo – Safari – VinWonders <br>
+          Kinh nghiệm: 5 năm <br>
+          Đặc điểm: Hoạt bát, rành lịch sử địa phương
+        </p>
+      </div>
+      <div class="w3-third w3-card w3-padding-16">
+        <img src="./assets/nhan-vien.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>
+          <strong>Hữu Phát</strong> <br>
+          Chuyên tuyến: Nam đảo – Bãi Sao – Hòn Thơm <br>
+          Kinh nghiệm: 4 năm <br>
+          Đặc điểm: Nhiệt tình, giỏi sắp xếp tour theo yêu cầu
+        </p>
+      </div>
+      <div class="w3-third w3-card w3-padding-16">
+        <img src="./assets/nhan-vien.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>
+          <strong>Bảo Trâm</strong><br>
+          Chuyên tuyến: Lặn ngắm san hô – Hòn Móng Tay – Hòn Mây Rút <br>
+          Kinh nghiệm: 6 năm <br>
+          Đặc điểm: Thân thiện, hiểu rõ các điểm snorkeling đẹp nhất
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="w3-indigo" id="lich-trinh">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">LỊCH TRÌNH</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-blue">
+        <li class="w3-padding">Tháng 12 <span class="w3-tag w3-red w3-margin-left">Còn chỗ</span></li>
+        <li class="w3-padding">Tháng 1 <span class="w3-tag w3-red w3-margin-left">Sắp hết chỗ</span></li>
+        <li class="w3-padding">Tháng 2 <span class="w3-badge w3-indigo w3-right w3-margin-right">3</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="./assets/bien-dep.webp" alt="Biển đẹp" class="lt-img w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Cao điểm biển đẹp </b><i class="fa-solid fa-umbrella-beach"></i></p>
+            <p class="w3-opacity">Tháng 12</p>
+            <p>Lịch trình: Nam Đảo – Bãi Sao – Cáp treo Hòn Thơm</p>
+            <button class="w3-button w3-indigo w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mua Vé</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="./assets/rung-nguyen-sinh.webp" alt="Rừng nguyên sinh" class="lt-img w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Rừng nguyên sinh xanh nhất trong năm </b><i class="fa-solid fa-tree"></i></p>
+            <p class="w3-opacity">Tháng 1</p>
+            <p>Lịch trình: Bắc Đảo – Vườn quốc gia – Sunset Sanato</p>
+            <button class="w3-button w3-indigo w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mua Vé</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="./assets/hoang-hon.jpg" alt="Hoàng hôn" class="lt-img w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Thời tiết khô ráo, view hoàng hôn đẹp </b><i class="fa-solid fa-sun"></i></p>
+            <p class="w3-opacity">Tháng 2</p>
+            <p>Lịch trình: Trung tâm – Chợ đêm – Câu mực đêm</p>
+            <button class="w3-button w3-indigo w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Mua Vé</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Vé</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Giá vé là 500.000đ / 1 người</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Bao nhiêu vé?">
+        <p><label><i class="fa fa-user"></i> Gửi đến</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">THANH TOÁN <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Đóng <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Cần sự <a href="#" class="w3-text-blue">trợ giúp?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <section class="w3-container w3-content w3-padding-64" style="max-width:800px" id="lien-he">
+    <h2 class="w3-wide w3-center">LIÊN HỆ</h2>
+    <p class="w3-opacity w3-center"><i>Điền thông tin bên dưới nếu bạn cần đặt tour, hỏi thêm về lịch trình hoặc muốn nhận tư vấn miễn phí.</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Thị trấn Dương Đông, Phú Quốc, Kiên Giang<br>
+        <i class="fa fa-phone" style="width:30px"></i> Hotline: 0937 123 456<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: contact@phuquoc-explorer.vn<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-indigo w3-section w3-right" type="submit">Gửi</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+<!-- End Page Content -->
+</main>
+
+<img src="./assets/footer-img.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
